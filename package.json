@@ -12,6 +12,11 @@
       "standard"
     ]
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mairaarquino/clean-node-api.git"
