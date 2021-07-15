@@ -4,10 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
   },
   "lint-staged": {
-    "*.js": ["standard"]
+    "*.js": [
+      "standard"
+    ]
   },
   "repository": {
     "type": "git",
@@ -21,6 +24,7 @@
   },
   "homepage": "https://github.com/mairaarquino/clean-node-api#readme",
   "devDependencies": {
+    "husky": "^7.0.1",
     "lint-staged": "^11.0.1",
     "standard": "^16.0.3"
   }
